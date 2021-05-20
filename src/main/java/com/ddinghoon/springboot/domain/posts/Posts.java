@@ -1,5 +1,6 @@
 package com.ddinghoon.springboot.domain.posts;
 
+import com.ddinghoon.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,7 +17,7 @@ import javax.persistence.*;
 // 기본값으로 클래스의 카멜케이스 이름을 언더스코어 네이밍으로 매칭한다.
 // Entity 클래스에서는 절대 Setter 메소드를 만들지 않습니다.
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     // 해당 테이블의 PK 필드 표시
     @Id
