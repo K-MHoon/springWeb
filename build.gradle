@@ -6,7 +6,7 @@ plugins {
 
 group 'com.ddinghoon'
 version '1.0-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = 11
 
 repositories {
     mavenCentral()
@@ -38,7 +38,9 @@ dependencies {
     //jpa, h2 라이브러리 추가 끝
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     //testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testImplementation(platform('org.junit:junit-bom:5.7.2'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
     //spring security test
     testImplementation 'org.springframework.security:spring-security-test'
 }
