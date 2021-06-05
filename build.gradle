@@ -23,6 +23,7 @@ configurations {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
+    implementation 'org.springframework.session:spring-session-jdbc'
     //소셜 로그인 등 클라이언트 입장에서 소셜 기능 구현 시 필요한 의존성
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
     //lombok 라이브러리 추가 시작
@@ -38,6 +39,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     //testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    //spring security test
+    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 test {
