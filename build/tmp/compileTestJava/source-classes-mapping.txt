@@ -1,0 +1,10 @@
+com/ddinghoon/springboot/web/dto/HelloResponseDtoTest.java
+ com.ddinghoon.springboot.web.dto.HelloResponseDtoTest
+com/ddinghoon/springboot/domain/posts/PostsRepositoryTest.java
+ com.ddinghoon.springboot.domain.posts.PostsRepositoryTest
+com/ddinghoon/springboot/web/PostsApiControllerTest.java
+ com.ddinghoon.springboot.web.PostsApiControllerTest
+com/ddinghoon/springboot/web/IndexControllerTest.java
+ com.ddinghoon.springboot.web.IndexControllerTest
+com/ddinghoon/springboot/web/HelloControllerTest.java
+ com.ddinghoon.springboot.web.HelloControllerTest
