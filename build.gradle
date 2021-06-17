@@ -43,6 +43,9 @@ dependencies {
     testImplementation('org.junit.jupiter:junit-jupiter')
     //spring security test
     testImplementation 'org.springframework.security:spring-security-test'
+    //mariadb Driver
+    implementation 'org.mariadb.jdbc:mariadb-java-client'
+
 }
 
 test {
