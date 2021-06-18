@@ -47,7 +47,7 @@ deploy:
 
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
-    secret_access_key:  $AWS_SECRET_KEY
+    secret_access_key: $AWS_SECRET_KEY
 
     bucket: thinkhoon-springboot-build
     key: thinkhoon-springboot2-webservice.zip
