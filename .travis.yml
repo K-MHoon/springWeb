@@ -45,6 +45,7 @@ deploy:
     lcal_dir : deploy # 앞에서 생성한 deploy 디렉토리 지정, 해당 위치의 파일들만 S3로 전송
     wait-until-deployed: true
 
+
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
